@@ -16,6 +16,7 @@
 		28AF37642A0B84070056892A /* ios_plistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF37632A0B84070056892A /* ios_plistTests.swift */; };
 		28AF376E2A0B84070056892A /* ios_plistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF376D2A0B84070056892A /* ios_plistUITests.swift */; };
 		28AF37702A0B84070056892A /* ios_plistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF376F2A0B84070056892A /* ios_plistUITestsLaunchTests.swift */; };
+		28AF377D2A0B84270056892A /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28AF377C2A0B84270056892A /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		28AF37692A0B84070056892A /* ios_plistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_plistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AF376D2A0B84070056892A /* ios_plistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_plistUITests.swift; sourceTree = "<group>"; };
 		28AF376F2A0B84070056892A /* ios_plistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_plistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28AF377C2A0B84270056892A /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				28AF37552A0B84070056892A /* Assets.xcassets */,
 				28AF37572A0B84070056892A /* LaunchScreen.storyboard */,
 				28AF375A2A0B84070056892A /* Info.plist */,
+				28AF377C2A0B84270056892A /* Property List.plist */,
 			);
 			path = ios_plist;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				28AF37592A0B84070056892A /* LaunchScreen.storyboard in Resources */,
 				28AF37562A0B84070056892A /* Assets.xcassets in Resources */,
+				28AF377D2A0B84270056892A /* Property List.plist in Resources */,
 				28AF37542A0B84060056892A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
